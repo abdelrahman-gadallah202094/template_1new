@@ -1,0 +1,429 @@
+/* start global */
+body{
+    font-family :monospace;
+    margin : 0;
+    padding : 0;   
+}
+
+/*end global */
+
+/* start navBar */
+.navBar{
+    width : 100%;
+    background-color :#360836;
+    text-align : center;
+    height : 50px;
+}
+.navBar ul {
+    list-style : none;
+    margin : 0;padding : 0;
+}
+.navBar ul li{
+    display : inline-block;
+    line-height : 50px;
+    margin-left : 15px;
+}
+.navBar ul li a{
+    text-decoration : none;
+    color :#e90e4e;
+    font-size :22px;
+    text-transform : capitalize;
+}
+.navBar ul li.active a{
+    color : #fff;
+}
+.navBar ul li a:hover{
+    color : #c23b63;
+}
+
+/* end navBar */
+
+/* start slider */
+.slider{
+    background-image : url('../Images/cover.png');
+    background-size : cover;
+    height :600px;
+    text-align : center;
+    position : relative;
+}
+.slider .web{
+    padding-top : 120px;
+    color : #fff;
+}
+.slider .web h2{
+    margin : 0;
+    text-transform : uppercase;
+    font-size : 32px;
+}
+.slider .web p{
+    letter-spacing : 10px;
+    font-size: 25px;
+    text-transform : capitalize;
+}
+.slider .dream {
+    padding-top : 50px;
+    color : #fff;
+    font-size : 18px;
+}
+.slider .dream p{
+    line-height : 1.5;
+}
+.slider .work{
+    position : absolute;
+    bottom : 0;
+    left : 45%;
+    background-color : #ff0048;
+    padding : 10px;
+    width : 250px;
+    color : #fff;
+    font-size : 20px;
+}
+.slider .work:after{
+    content: "";
+    border-top: 20px solid #ff0048;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: relative;
+    top: 52px;
+    left: -100px;
+}
+/* end slider*/
+
+/* start head */
+.head{
+    width : 100%;
+}
+.head .image{
+    height : 252px;
+    width : 25%;
+    background-image : url(../Images/image_1.jpg);
+    float :left
+}
+.head .i_2{
+    background-image : url(../Images/image_2.jpg);
+}
+.head .i_3{
+    background-image : url(../Images/image_3.jpg);
+}
+ .head .i_4{
+    background-image : url(../Images/image_4.jpg);
+}
+.head .i_5{
+    background-image : url(../Images/image_5.jpg);
+}
+.head .i_6{
+    background-image : url(../Images/image_6.jpg);
+ 
+}
+ .head .i_7{
+    background-image : url(../Images/image_7.jpg);
+
+}
+ .head .i_8{
+    background-image : url(../Images/image_8.jpg);
+  
+}
+.head .i_9{
+    background-image : url(../Images/image_9.jpg);
+  
+}
+.head .i_10{
+    background-image : url(../Images/image_10.jpg);
+   
+}
+.head .i_11{
+    background-image : url(../Images/image_11.jpg);
+   
+}
+.head .i_12{
+    background-image : url(../Images/unnamed.jpg);
+}
+
+.over{
+    width : 100%;
+    height : 100%;
+    background-color : rgba(0,0,0,.5);
+    opacity : 0;
+}
+.over:hover{
+    opacity : 1;
+}
+/* end header */
+/*start meet*/
+.meet{
+    text-align : center;
+    width : 100%;
+    background-color : #f5f5f5;
+    height : auto;
+}
+.meet p.meet{
+    background-color : #ff0048;
+    width : 100%;
+    line-height : 50px;
+    color : #fff;
+    font-size :18px;
+}
+.meet p.meet:after{
+    content: "";
+    border-top : 20px solid #ff0048;
+    border-right : 20px solid transparent;
+    border-left : 20px solid transparent;
+    position : relative;
+    top : 52px;
+    left : -400px;
+}
+.meet h3.meet{
+    padding-top : 30px;
+    padding-bottom : 100px;
+    color :#e90c44;
+    font-size : 30px;
+    margin : 0;
+}
+.meet .img{
+    display : inline-block;
+    margin : -4px;
+}
+.meet .img:hover{
+    opacity : .6;
+}
+.meet .img h3{
+    color :#ff0048;
+    text-transform : capitalize;
+    font-size : 25px;
+    margin : 10px;
+    letter-spacing : 5px;
+    margin-top : 20px;
+}
+.meet .img p{
+    font-size :18px;
+    font-weight : bold;
+}
+.meet .img p{
+    padding-bottom : 40px
+}
+.meet button{
+    border : 0;
+    background-color : #000;
+    color : #fff;
+    padding :10px;
+    width : 150px;
+    font-size :16px;
+    cursor : pointer;
+    font-weight : bold;
+    margin-bottom : 10px;
+}
+/*end meet */
+
+/* start end */
+.end{
+    text-align : center;
+    background-image :url(../Images/Cover_2.jpg);
+    height : auto;
+    background-size : cover;
+    width : 100%;
+    color : #fff;
+ 
+}
+.content_1,.content_2,.content_3,.content_4{
+    display : inline-block;
+    width : 400px;
+   padding-top : 10px;
+    padding-bottom : 30px;
+    margin-right : 50px;
+}
+.content_1,.content_2{
+    padding-bottom : 80px;
+}
+
+.end h3{
+    padding : 0;
+    margin : 0;
+    font-size : 30px;
+}
+.end p{
+    line-height : 1.6;
+     padding-bottom: 30px;
+    font-size : 16px;
+}
+.end button{
+    border : 0;
+    background-color : #fff;
+    padding : 10px;
+    width : 170px;
+    cursor : pointer;
+    color : #000;
+    font-size : 20px;
+    margin-bottom : 15px;
+    font-weight : bold;
+    margin-top : 5%;
+}
+
+.end .bole span{
+    background-color : #fff;
+    width : 10px;
+    height : 10px;
+    display : inline-block;
+    border-radius : 50%;
+    margin: 20px 0 20px 0;
+}
+.end .bole span.active{background-color : #ff0048}
+.end .bole span:hover{background-color : #ff0048}
+
+/* end end */
+
+/* start footer */
+.footer{
+    text-align : center;
+    height :70px;
+    line-height : 70px;
+    background-color : #ddd;
+    font-size : 20px;
+    text-transform : capitalize;
+}
+/* end footer */
+
+/***********************************************************************************************/
+
+/******************** start contact ***********************/
+.contact{
+    background-image : url(../Images/coverPage2.PNG);
+    height : 620px;;
+    background-size : cover;
+    width : 100%;
+    text-align :  center;
+    padding-top : 5%;
+}
+.contact h2{
+    margin : 0;
+    font-size : 40px;
+    font-style : italic;
+}
+.tell p{
+    font-size : 25px;
+    padding-bottom : 30px;
+}
+.contact .form{
+    width : 500px;
+    margin : auto;
+    height : 400px;
+}
+.contact .form h2{
+    width : 100%;
+    color : #ff0048;
+    font-size : 30px;
+    text-transform : capitalize;
+}
+.contact .form input[type=text] ,.contact .form textarea{
+    display : block;
+    background-color : #ff0048;
+    border : 0;
+    color : #fff;
+    width : 100%;
+    margin-bottom : 5px;
+    height : 35px;
+    color : #fff;
+    padding-left : 10px;
+}
+.contact .form textarea{height : 200px;}
+.contact .form input[type=submit]{
+    border : 0;
+    float :right;
+    padding : 10px 15px;
+    background-color : #fff;
+    cursor : pointer;
+}
+/*end contact */
+
+/*start folkteer */
+.folkteer{
+   text-align : center; 
+    padding-top : 30px;
+    width : 500px;
+    margin : auto;
+}
+.folkteer h2{
+    margin : 0;
+    padding : 0;
+    text-transform : capitalize;
+    color : #ff0048;
+    font-size :28px;
+}
+.folkteer h2 span{
+    text-transform: lowercase;
+}
+.folkteer p{
+    font-size : 16px;
+    line-height : 1.6;
+    padding-bottom : 30px;
+    color : #555;
+}
+.folkteer h3{
+    color : #ff0048;
+    font-size : 25px;
+    text-transform : capitalize;
+    padding : 0;
+    margin : 0;
+}
+/*end folkteer */
+
+/*start last*/
+.last{
+    background-color : #ddd;
+    height : 70px;
+    text-align : center;
+}
+.last p{
+    line-height : 70px;
+    font-size : 18px;
+}
+.last p span{
+    color : #ff0048;;
+}
+/*end last */
+
+/*******************************************************************************/
+
+/*start  book*/
+
+.contact .container{
+background-color :#fff;
+margin : auto;
+width : 900px;
+height : 380px;
+overflow : hidden;
+padding-top : 50px;
+}
+.container .left {
+    float : left;
+    width : 45%;
+    margin-left : 5%;
+    height : 252px;
+}
+.container .left img{
+    width : 100%;
+}
+.container .right{
+    float : right;
+    width : 45%;
+    background-color : #ddd;
+    margin-right : 5%;
+    height : 203px;
+    padding-top : 100px;
+}
+.container .right p{
+    font-size : 16px;
+}
+.container .right button{
+    border : 0;
+    background-color : #000;
+    color : #fff;
+    padding : 10px;
+    cursor : pointer;
+    font-weight : bold;
+}
+.last p{
+    margin : 0;
+}
+/* end book */
+
+/************************************************************************/
